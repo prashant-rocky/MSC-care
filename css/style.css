@@ -1,8 +1,4 @@
-/* Carer - Senior Elderly Care HTML Template
-
-Template Name: Carer
-Version: 1.0.0
-License: copyright commercial
+/* 
 
 /************ TABLE OF CONTENTS ***************
 1. Fonts
@@ -168,6 +164,23 @@ body {
   font-family: var(--text-font);
   font-weight: var(--body-font-weight);
   line-height: var(--body-line-height);
+}
+.cookies{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100vw;
+    background-color: white;
+    color: black;
+    z-index: 999;
+    transition: all ;
+}
+.cookiesBtn{
+    background-color: #1f2427;
+    color: white;
+    border-radius: 40px;
+    padding: 10px 20px;
 }
 
 p, .text {
