@@ -1,35 +1,14 @@
+@font-face {
+  font-family: 'Flaticon';
+  src: url('/fonts/flaticon-set-oldkare.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* 👈 Add this */
+}
+
+
 /* 
 
-/************ TABLE OF CONTENTS ***************
-1. Fonts
-2. Reset
-3. Global Settings
-4. Main Header / TWO / Three
-5. Sticky Header 
-6. Mobile Menu
-7. Section Title
-8. Main Slider
-9. Banner Section / Two
-10. About Section / Two / Three / Four
-11. Services Section / Two / Three
-12. Projects Section / Two
-13. Process Section
-14. Testimonial Section / Two / Three
-15. team Section
-16. FAQ's Sectiom / Two
-17. Fun Fact Section
-18. Work Section / Two
-19. Why Choose Us / Two
-20. Offer Section
-21. Features Section / Two / Three / Four
-22. Video Section / Two / Three
-23. Call To Action / Two / Three / Four
-24. Contact Info Section
-25. Contact Section / Two
-26. Map Section
-27. Clients Section
-28. News Section / Two / Three
-29. Main Footer
 **********************************************/
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("animate.css");
@@ -107,10 +86,7 @@
   --container-pb: 120px;
 }
 
-/*
- * typography.scss
- * -----------------------------------------------
-*/
+
 ::-moz-selection {
   background: var(--theme-color1);
   color: #fff;
@@ -11235,7 +11211,7 @@ Page Title
 ====================================================================
 
 ***/
-@-webkit-keyframes "ripple" {
+/* @-webkit-keyframes "ripple" {
   70% {
     -webkit-box-shadow: 0 0 0 70px rgba(255, 255, 255, 0);
     box-shadow: 0 0 0 70px rgba(255, 255, 255, 0);
@@ -11254,7 +11230,7 @@ Page Title
     -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
   }
-}
+} */
 .page-title {
   position: relative;
   background-repeat: no-repeat;
@@ -11542,11 +11518,6 @@ Page Title
   margin: 0 auto;
 }
 
-/***
-=============================================
-    Services Details
-=============================================
-***/
 .service-sidebar {
   position: relative;
   display: block;
